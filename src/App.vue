@@ -32,7 +32,7 @@ export default class App extends Vue {
   }
   public changeText() {
     this.setToken('ffff');
-    console.log(process.env.VUE_APP_URL, '///')
+    // console.log(process.env.VUE_APP_URL, '///')
     this.$toast.success("message")
   }
 };

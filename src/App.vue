@@ -26,7 +26,7 @@ export default class App extends Vue {
   @State("age")   age  !: number;
   @Mutation(types.TOKEN) setToken!: (data: string) => void
 
-  public list: string[] = ['1', '2'];
+  public list: string[] = ['1', '2', '3'];
   public mounted() {
     console.log(this.token);
   }
